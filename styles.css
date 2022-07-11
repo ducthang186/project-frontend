@@ -1,0 +1,442 @@
+.top-header .logo{
+width: 170px;
+height:  auto;
+padding-bottom:0;
+padding-top: 20px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+/*navigation*/
+
+.top-header{
+    margin: 0px;
+    
+    
+}
+.top-header {
+    background: #f9f7f4;
+    margin: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: small;
+    padding: 15px;
+    font-weight: bold;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #39b777;
+}
+.top-header .logo-title{
+   font-size: 11px;
+    text-decoration: none;
+    color: #3b3d42;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding: 15px;
+    
+}
+.top-header .header{
+    background: #fff;
+}
+
+
+
+ /*banner*/
+
+.title{
+
+width: 100%;;
+padding-top: 150px;
+    
+ }
+.parallax{
+    background-image: url("../images/banner.jpg");
+
+  /* Set a specific height */
+  min-height: 570px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+width: auto;
+height: auto;
+display: flex;
+  position: relative;
+}
+.title{
+    color: #ffffff;
+    display: inline;
+    text-align: center;
+    margin: 80px auto;
+    font-family: "Exo 2", Sans-serif , sans-serif 
+    Arial, Helvetica, sans-serif 
+    sans-serif ;
+}
+.title h1{
+font-size: 4.5em;
+font-weight: bold;
+}
+.title p{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+.content-col{
+    background:   #39b777;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 15px 5px 25px;
+   
+   color: #ffffff;
+   font-size: .9em; 
+   hyphens: manual;
+ text-align: left;
+}
+
+.banner-content {
+  
+ background: #000;
+    font-family:    Arial, Helvetica, sans-serif     ;
+    display: inline; 
+     position: relative;
+     
+}
+
+.banner-content h4{
+    font-weight: bold
+    
+}
+.content-col p {
+    padding: 10px;
+    margin: 0px ;
+   
+}
+.banner-content .col-md-4{
+    position: relative;
+  margin: 0 auto;
+    top: -130px;
+   
+}
+.banner-content .row{
+    height: 300px;
+}
+.col-md-4 .c3{
+    padding-bottom: 6%;
+}
+
+
+/*
+mid content
+*/
+.midcontent .mid-title{
+    
+text-align: center;
+color: #7e868a;
+font-weight: bold;
+padding-bottom: 30px;
+}
+.midcontent .mid-title h1{
+    font-weight: bold;
+    color: #39464f;
+}
+.midcontent .tag{
+    font-size: 5.5em;
+    color: #39b777;
+    padding: 20px 0px ;
+ 
+}
+.tag-t{
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif  ;
+}
+.midcontent .col-md-3{
+    text-align: center;
+}
+.tag-content{
+    font-size: 0.85em;
+}
+.more{
+    font-weight: bold;
+    color: #48535c;
+    text-decoration: none;
+    padding-top: 10px;;
+    font-size: 1.1em;
+}
+.more:hover{
+    color: #39b777;
+}
+
+/* topic */
+.mid-topic{
+    background: #fff;
+    padding-top: 60px;
+    font-family:    Arial, Helvetica, sans-serif     ;
+}
+.mid-topic .title-2{
+    color: #39b777;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.mid-topic .title-2:hover{
+    color: #000;
+}
+.mid-topic .content{
+    padding: 20px;
+}
+.sub{
+    color: #808185;
+    font-size: 0.8em;
+}
+.btn-more{
+ 
+    padding: 9px 22px;
+    border: #000 ;
+    width: 82px;
+    height: 36px;
+    text-align: center;
+   background: #000;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+
+}
+.btn-more:hover{
+ background: #39b777;
+ color: #fff;
+}
+
+.mid-topic h3{
+    padding-bottom: 30px;
+}
+.mid-topic .col-md-4{
+    padding-bottom:70px;
+}
+
+
+/* element list */
+.element-list{
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #f3f9f6;
+    
+}
+.element-list h2{
+    color: #4eba82;
+    font-family: "Istok Web", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.element-list .title{
+    color: #39464f;
+    font-family:  Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    hyphens: manual;
+    margin: 0;
+   
+}
+
+.text{
+    font-size: 16px;
+    color: #b5afb5;
+    font-family: "Istok Web", Sans-serif;
+  padding: 4px 5px;
+
+}
+.text .arrow{
+    padding-right: 5px;
+    color: #39b777;
+    
+}
+.text:hover{
+color: #4eba82;
+}
+
+.content-item{
+    border-bottom: 1px #000 dashed ;
+    padding-bottom: 15px;
+}
+.list-item {
+    margin: 0px;
+    padding-left: 0px;
+   
+}
+
+
+.list-item a{
+    text-decoration: none;
+    
+    font-family: "Istok Web", Sans-serif
+}
+
+.list-content{
+     padding-top: 10px;
+}
+
+/* list logo */
+.list-logo{
+    display: inline-block;
+    margin-left: 20px; ;
+  width: 100%;
+    padding: 50px 70px;
+}
+.logo-item{
+    padding: 10px 10px ;
+}
+
+
+/* footer */
+.site-footer{
+    background: #3b4653;
+}
+.content-f1 p{
+    text-align: left;
+    color: #f2f3f4;
+    font-family: "Arial", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    hyphens: manual;
+}
+.content-f1 .number{
+    text-align: left;
+    color: #f2f3f4;
+    font-family: "Exo 2", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+.site-footer img{
+    width: 55%;
+    
+    padding-bottom: 25px;
+}
+.content-f1 .num1:hover{
+    color: #39b777;
+}
+.site-footer .col-md-3{
+
+    padding-top: 60px;
+}
+.content-2 a{
+    color: #f2f3f4;
+    text-decoration: none;
+  ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content-2 h2{
+    color: #f2f3f4;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.tit{
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px 0px;
+}
+.content-2 .timedate{
+    color: #3bb375;
+    font-size: 14px;
+}
+.tit:hover{
+    color: #39b777;
+}
+.content-2 i{
+    color: #f1f2f3;
+}
+.content-2 .timedate:hover{
+    color: #f2f3f4;
+}
+
+.aff{
+    padding: 20px 0px;
+    border-bottom: 1px solid #4d4d4d;
+}
+.titt{
+ 
+    padding-bottom: 10px ;
+}
+
+
+.content-3 h2{
+    color: #f2f3f4;
+    font-weight: bold;    
+    font-size: 30px;
+}
+.content-3 i {
+    color: #39b777;
+    font-size: 10px;
+}
+.content-3 li {
+    color: #3bb375;
+}
+.content-3 a{
+    text-decoration: none;
+    color: #f1f2f3;
+    font-size: 18px;
+}
+.content-3 a:hover{
+    color: #39b777;
+}
+
+.content-4 h2{
+    color: #f2f3f4;
+    font-weight: bold;    
+    font-size: 30px;
+}
+.content-4 p{
+color: #f1f2f3;
+font-size: 18px;
+}
+input{
+    width: 100%;
+    height: 55px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.col-md-3 button{
+    width: 100%;
+    height: 55px;     
+    border-radius: 7px;
+    background: #39b777;
+    color: #f1f2f3;
+    font-weight: bold;
+    border:none ;
+}
+.col-md-3 button:hover{
+    color: #000;
+    background: #f1f2f3;
+}
+
+
+.bot-footer{
+    background: #000;
+    padding: 30px 0px;
+    color: #f1f2f3;
+}
+.bot-footer .bot{
+  
+    color: #39b777;
+    padding-left: 50px;
+}
+.bot-footer .bot:hover{
+    color: #f1f2f3;
+}
